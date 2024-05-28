@@ -29,8 +29,8 @@ volatile char time_paused = 0; // To track if the clock is paused
 void floatToString(char *str, float value) {
     int tmpInt1 = (int)value;
     float tmpFrac = value - tmpInt1;
-    int tmpInt2 = trunc(tmpFrac * 100);
-    sprintf(str, "%d.%02d", tmpInt1, tmpInt2 < 0 ? -tmpInt2 : tmpInt2);  // Handle negative fractions
+    int tmpInt2 = trunc(tmpFrac * 1000);
+    sprintf(str, "%d.%03d", tmpInt1, tmpInt2 < 0 ? -tmpInt2 : tmpInt2);  // Handle negative fractions
 }
 
 
@@ -94,7 +94,9 @@ int main(void) {
     setupIO();
     char key; // Define key variable here
     int32_t num1 = 0, num2 = 0, result = 0;
-    char resultStr[32];  // Buffer to store the result string
+    float result1=0;
+    char resultStr[32];
+    char result1Str[32]; // Buffer to store the result string
 
     if (!welcomeDisplayed) {
         LCD_WriteString("Welcome", LCD_ROW_1, 0);
@@ -200,19 +202,17 @@ int main(void) {
                             continue; // Exit this case
                         }
 
-                        result = num1 / num2;
+                        result1 = (float)num1 / (float)num2;
                         break;
                     default:
-                        LCD_Clear();
-                        LCD_WriteString(" ", LCD_ROW_1, 0);
-                        _delay_ms(100); // Display error for a period
+
                         continue;
                 }
                 if(op=='/')
                 {
-                	floatToString(resultStr, result);
+                	floatToString(result1Str, result1);
 					LCD_Clear();
-					LCD_WriteString(resultStr, LCD_ROW_1, 0);
+					LCD_WriteString(result1Str, LCD_ROW_1, 0);
 					_delay_ms(2000); // Allow time to read the result
 					LCD_Clear();
 					break;
