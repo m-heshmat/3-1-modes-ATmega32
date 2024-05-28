@@ -1,7 +1,10 @@
 # 3*1 modes ATmega32
+
 This project is developed for embedded systems using the ATMEGA32 microcontroller. The project has features three main modes: Calculator, Timer, and Stopwatch. Additionally, it utilizes a keypad for numeric inputs and push buttons to switch between modes.
 
-Features
+
+
+**Features**
 
 •	Operational modes
 1.	Calculator Mode: Allows users to perform basic arithmetic calculations with two numbers and various operators (+, -, /, *, =). Inputs are obtained through a keypad, and the LCD displays the numbers, operator, and the result.
@@ -9,7 +12,8 @@ Features
 3.	Stopwatch Mode: Provides a stopwatch functionality with start, pause, and reset buttons. The stopwatch increments and displays the time in "MM:SS" format on the LCD.
 
 
-Hardware
+**Hardware**
+
 
 •	ATMEGA32 microcontroller
 •	Keypad
@@ -18,8 +22,8 @@ Hardware
 
 
 
-Operations Instructions
-
+**Operations Instructions
+**
 •	Calculator Mode
 o	Enter two numbers using the keypad.
 o	Select an operator (+, -, /, *, =) using the keypad buttons (A, B, C, D, *).
