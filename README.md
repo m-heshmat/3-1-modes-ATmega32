@@ -16,8 +16,11 @@ This project is developed for embedded systems using the ATMEGA32 microcontrolle
 
 
 •	ATMEGA32 microcontroller
+
 •	Keypad
+
 •	LCD 
+
 •	Push buttons
 
 
@@ -27,19 +30,25 @@ This project is developed for embedded systems using the ATMEGA32 microcontrolle
 1-	Calculator Mode
 
 o	Enter two numbers using the keypad.
+
 o	Select an operator (+, -, /, *, =) using the keypad buttons (A, B, C, D, *).
+
 o	The LCD will display the numbers, operator, and the result.
 
 2-	Timer Mode
 
 o	Initially, "00:00" is displayed on the LCD.
+
 o	Enter minutes and seconds using the keypad.
+
 o	Press the 'D' button to start the countdown timer.
+
 o	When the timer reaches zero, a buzzer will be triggered.
 
 3- Stopwatch Mode
 
 o	Initially, "00:00" is displayed on the LCD.
+
 o	Use the buttons to start, pause, and reset the stopwatch.
 
 
