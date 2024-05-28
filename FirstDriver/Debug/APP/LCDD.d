@@ -1,0 +1,1 @@
+APP/LCDD.o APP/LCDD.o: ../APP/LCDD.c

@@ -1,0 +1,1 @@
+APP/LCD.o APP/LCD.o: ../APP/LCD.c
