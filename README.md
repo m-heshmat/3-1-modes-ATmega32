@@ -22,8 +22,8 @@ This project is developed for embedded systems using the ATMEGA32 microcontrolle
 
 
 
-**Operations Instructions
-**
+**Operations Instructions**
+
 •	Calculator Mode
 o	Enter two numbers using the keypad.
 o	Select an operator (+, -, /, *, =) using the keypad buttons (A, B, C, D, *).
