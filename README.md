@@ -12,6 +12,10 @@ This project is developed for embedded systems using the ATMEGA32 microcontrolle
 3.	Stopwatch Mode: Provides a stopwatch functionality with start, pause, and reset buttons. The stopwatch increments and displays the time in "MM:SS" format on the LCD.
 
 
+
+
+
+
 **Hardware**
 
 
@@ -22,6 +26,9 @@ This project is developed for embedded systems using the ATMEGA32 microcontrolle
 •	LCD 
 
 •	Push buttons
+
+
+
 
 
 
