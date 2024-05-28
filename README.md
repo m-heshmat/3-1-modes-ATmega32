@@ -1,6 +1,6 @@
 # 3*1 modes ATmega32
 
-This project is developed for embedded systems using the ATMEGA32 microcontroller. The project has features three main modes: Calculator, Timer, and Stopwatch. Additionally, it utilizes a keypad for numeric inputs and push buttons to switch between modes.
+This project is developed for embedded systems using the ATMEGA32 microcontroller. The project has features three main modes: Calculator, Timer, and Stopwatch. Additionally, it utilizes a keypad for numeric inputs and push buttons to switch between modes, pause or resume which are used for the timer and stopwatch modes,and the reset button which also used for timer and stopwatch modes.
 
 
 
